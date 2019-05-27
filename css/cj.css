@@ -56,7 +56,9 @@ body {
 .layui-col-xs6.layui-col-sm6.layui-col-md3 {
     display: flex;
 }
-
+.layui-btn.layui-btn-primary a{
+    color: #FF4F4C;
+}
 .layui-btn {
     height: 32px;
     width: 24%;
@@ -186,6 +188,9 @@ body {
 .content-c:hover .bt.layui-btn.layui-btn-primary {
     background: #FF4F4C;
     color: #FFFFFF;
+}
+.content-c:hover .bt.layui-btn.layui-btn-primary a{
+    color: #fff;
 }
 
 .content-c1 {
@@ -407,9 +412,9 @@ body {
 }
 
 .content-f2 {
-    /*height: 250px;*/
+    height: auto;
     width: 83%;
-    width: 900px;
+    /*width: 900px;*/
     margin-top: 78px;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px #ddd;
